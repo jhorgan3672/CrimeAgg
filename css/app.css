@@ -1,0 +1,266 @@
+body{
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: -5px;
+  }
+  #map{
+      z-index: 0;
+      height: 55vw; 
+      border-radius:10px; 
+      padding: 0px;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    text-decoration: none;
+    color: #00CED1;
+  }
+  
+  #app:hover{
+    background-color: #111;
+    text-decoration: none;
+    color: #00CED1;
+    cursor: pointer;
+  }
+  
+  #search:hover{
+    background-color: #111;
+    text-decoration: none;
+    color:#00CED1;
+    cursor: pointer;
+  }
+
+  #register:hover{
+    background-color: #111;
+    text-decoration: none;
+    color: #00CED1;
+    cursor: pointer;
+  }
+
+  #signup:hover{
+    text-decoration: none;
+    color: #00CED1;
+    cursor: pointer;
+  }
+
+  #signin:hover{
+    text-decoration: none;
+    color: #00CED1;
+    cursor: pointer;
+  }
+  
+  #list:hover{
+    background-color: #111;
+    text-decoration: none;
+    color: #00CED1;
+    cursor: pointer;
+  }
+
+  #report:hover{
+    background-color: #111;
+    text-decoration: none;
+    color: #00CED1;
+    cursor: pointer;
+  }
+
+  #account:hover{
+    background-color: #111;
+    text-decoration: none;
+    color: #00CED1;
+    cursor: pointer;
+  }
+
+  #chart:hover{
+    background-color: #111;
+    text-decoration: none;
+    color: #00CED1;
+    cursor: pointer;
+  }
+
+  #signout:hover{
+    background-color: #111;
+    text-decoration: none;
+    color: #00CED1;
+    cursor: pointer;
+  }
+
+  .active {
+    background-color: #00CED1;
+  }
+  
+  /* The sidebar menu */
+  .sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #333; /* #111 Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  /* The sidebar menu */
+  .leftsidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #333; /* #111 Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .leftsidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .leftsidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .leftsidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  /* Purple background: #5228F5; */
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    /* transition: margin-right .5s; */
+    /* padding: 20px; */
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+
+
+  #searchSubmit{
+    background: #00CED1;
+  }
+
+  #signupSubmit{
+    background: #00CED1;
+  }
+
+  #siginSubmit{
+    background: #00CED1;
+  }
+
+  #changedetails-submit{
+    background: #00CED1;
+  }
+
+
+  #searchHeader{
+    color: white;
+  }
+
+  #registerHeader{
+    color: white;
+  }
+
+  #accountHeader{
+    color: white;
+  }
+
+  .success{
+
+    background-color: lightgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    
+  }
+
+  .failure{
+
+    background-color: firebrick;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    
+  }
+  
